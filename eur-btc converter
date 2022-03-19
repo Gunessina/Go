@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+    var eur float64 
+    fmt.Scanln(&eur)
+    
+    var btc float64 = eur * 0.000023 
+    fmt.Println(btc)
+}
+// the result is clear after 5 eur
